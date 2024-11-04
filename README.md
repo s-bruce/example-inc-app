@@ -36,3 +36,31 @@ There are a few more things I would have liked to accomplish as part of this ass
 2. **More documentation** - Personally, I find TypeScript code to serve as a good source of documentation within the codebase. However, I also like JSDoc and if I had more time I would have added documentation throughout the code using JSDoc. Next steps would be to do this :)
 
 3. **Optimize rendering of a few components** - I added comments about this in `EditUserButton.tsx` and `DeleteUserButton.tsx`, but currently there is unnecessary rendering of child components within those two files. The problem would be easy to solve by refactoring where we add the logic/condition for rendering the child components. I just didn't have time.
+
+## Installation
+
+1. Clone the repository
+
+```
+git clone https://github.com/s-bruce/example-inc-app.git
+```
+
+2. Change directories into the project
+
+```
+cd example-inc-app
+```
+
+3. Install packages
+
+```
+npm install
+```
+
+4. Start the dev server
+
+```
+npm run dev
+```
+
+5. View the application in your browser at [http://localhost:5173](http://localhost:5173)
